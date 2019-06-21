@@ -59,3 +59,6 @@ print(train[['Age','Child','Not Child']].head(15))
 test['Child'] = np.where(test['Age'] < 18, 1, 0)
 test['Not Child'] = np.where(test['Age'] >= 18, 1, 0)
 print(test[['Age','Child','Not Child']].head(25))
+
+test.to_csv('test_edit.csv')
+train.to_csv('train_edit.csv')
