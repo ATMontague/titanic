@@ -9,3 +9,5 @@ to NY
 women over men
 
 initial score: ~ 0.7877
+overfitting issue in training data?
+when using cross_val_score, mean score increases slightly
